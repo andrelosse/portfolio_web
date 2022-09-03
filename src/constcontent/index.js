@@ -1,3 +1,18 @@
+export const navigation = [
+    {
+        id: "home",
+        title: "Home",
+    },
+    {
+        id: "projects",
+        title: "Projects",
+    },
+    {
+        id: "contact",
+        title: "Contact",
+    }
+]
+
 export const title = [
     {
         id: "big_title",
@@ -37,7 +52,7 @@ export const projects = [
         icon: "location",
         title: "Location Searcher",
         content: "Console application that searches for a given address and writes the information to a JSON file",
-    },
+    }
 ];
 
 export const contact = [

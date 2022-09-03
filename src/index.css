@@ -10,7 +10,7 @@
 
 :root {
   --black-gradient: linear-gradient(
-    144.39deg,
+    144.39deg,  
     #ffffff -278.56%,
     #6d6d6d -78.47%,
     #11101d 91.61%
@@ -72,12 +72,8 @@
   );
 }
 
-.bg-discount-gradient {
-  background: linear-gradient(125.17deg, #272727 0%, #11101d 100%);
-}
-
 .box-shadow {
-  box-shadow: 0px 20px 100px -10px rgba(66, 71, 91, 0.1);
+  box-shadow: 0px 27px 157px -20px rgba(75, 75, 127, 0.75);
 }
 
 .sidebar {
