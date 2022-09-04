@@ -17,3 +17,7 @@ It is created, as well, to study the concepts and implementation of the followin
 
 -> Initial files and project structure
 -> Added the information that will be displayed in the website
+
+09/03/2022 update:
+
+-> Navbar implementation

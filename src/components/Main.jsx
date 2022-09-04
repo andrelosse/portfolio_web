@@ -15,6 +15,14 @@ const Main = () => (
                         <ContactIcon/>
                     </div>
                 </div>
+
+                <h1 className="font-poppins font-semibold ss:text-[67px] text-[52px] text-white
+                    ss:leading-[100px] leading-[75px] w-full"></h1>
+                
+                <p className={`${stylesjs.paragraph} max-w-[470px] mt-5`}>
+                    Computer engineer student and developer <br/>.NET | C# | Python | React.js
+                </p>
+
             </div>
         </section>
     )
