@@ -33,13 +33,13 @@ export const projects = [
         id: "minkvpn",
         icon: "minkvpn",
         title: "MinkVPN",
-        content: "VPN client with user interface.",
+        content: "VPN client with user interface, made with C# and XAML using MVVM architecture.",
     },
     {
         id: "portproj",
         icon: "portproj",
         title: "Portfolio Project",
-        content: "Personal portfolio project",
+        content: "Personal portfolio project made with React and Tailwind CSS.",
     },
     {
         id: "fibonacci",
@@ -51,17 +51,17 @@ export const projects = [
         id: "location",
         icon: "location",
         title: "Location Searcher",
-        content: "Console application that searches for a given address and writes the information to a JSON file",
+        content: "Console application that searches for a given address and writes the information to a JSON file.",
+    },
+    {
+        id: "soon",
+        icon: "soon",
+        title: "Coming Soon",
+        content: "This project will be revealed soon...",
     }
 ];
 
 export const contact = [
-    {
-        id: "name",
-        icon: "none",
-        title: "Name",
-        content: "Andre Losse",
-    },
     {
         id: "email",
         icon: "none",
@@ -75,12 +75,12 @@ export const link = [
         id: "linkedin",
         icon: "linkedin",
         title: "Linkedin",
-        content: "linkedin.com/in/andrelosse",
+        content: "https://www.linkedin.com/in/andrelosse",
     },
     {
         id: "github",
         icon: "github",
         title: "GitHub",
-        content: "github.com/andrelosse",
+        content: "https://www.github.com/andrelosse",
     }
 ];

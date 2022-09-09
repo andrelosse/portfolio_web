@@ -1,4 +1,5 @@
 import stylesjs from "../stylesjs";
+import { bgmain } from "../assets";
 
 const Main = () => (
     <section id="home" className={`flex md:flex-row flex-col ${stylesjs.paddingY}`}>
@@ -31,6 +32,15 @@ const Main = () => (
             </p>
 
         </div>
+
+        <div>
+            <img src={bgmain} alt="Main Background Image" className="w-[100%] h-[100%] relative z-[5]" />
+            <div className="absolute z-[0] w-[40%] h-[35%] top-0 pink__gradient" />
+            <div className="absolute z-[1] w-[80%] h-[80%] rounded-full bottom-40 white__gradient" />
+            <div className="absolute z-[0] w-[50%] h-[50%] right-20 bottom-20 blue__gradient" />
+
+        </div>
+
     </section>
 )
 

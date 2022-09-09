@@ -8,7 +8,7 @@ const Navbar = () => {
 
     return (
         <nav className="w-full flex py-6 justify-between items-center navbar">
-            <img src={logo} alt="Andre's logo" className="w-[75px] h-[75px]"/>
+            <img src={logo} alt="Andre's logo" className="w-[72px] h-[72px]"/>
 
             <ul className='list-none sm:flex hidden justify-end items-center flex-1'>
                 {navigation.map((nav, index) => (

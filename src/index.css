@@ -81,6 +81,30 @@
   animation: slide-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
 }
 
+.centertext {
+  position: absolute;
+  padding-top: 10px;
+  top: auto;
+  bottom: auto;
+  left: auto;
+  right: auto;
+}
+
+.project-container .project-card:last-child {
+  margin-right: 0px;
+}
+
+.project-card {
+  background: transparent;
+  border-width: 1px;
+  border-color: rgba(51, 187, 207, 0.27);
+}
+
+.project-card:hover {
+  background: var(--black-gradient);
+  border-width: 0px;
+}
+
 @-webkit-keyframes slide-top {
   0% {
     -webkit-transform: translateY(100px);
