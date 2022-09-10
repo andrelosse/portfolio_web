@@ -1,6 +1,5 @@
 import { projects } from '../constcontent';
 import stylesjs, {layout} from "../stylesjs";
-import Button from './Button';
 import ProjectCard from './ProjectCard';
 
 const Projects = () =>(

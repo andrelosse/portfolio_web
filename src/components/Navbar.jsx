@@ -1,5 +1,5 @@
 import {useState} from 'react'
-import {logo, menu, close, menugif} from '../assets';
+import {logo, menu, close} from '../assets';
 import {navigation} from '../constcontent';
 
 const Navbar = () => {
@@ -16,10 +16,10 @@ const Navbar = () => {
                     font-normal 
                     cursor-pointer 
                     text-[17px] 
-                    text-white
+                    text-white 
                     ${index === navigation.length-1 ? 'mr-0' : 'mr-10'}`}>
                         <a href={`#${nav.id}`}>
-                            {nav.title}
+                                {nav.title}
                         </a>
                     </li>
                 ))}

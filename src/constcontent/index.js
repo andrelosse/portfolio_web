@@ -15,21 +15,6 @@ export const navigation = [
     }
 ]
 
-export const title = [
-    {
-        id: "big_title",
-        icon: "none",
-        title: "Intro",
-        content: "Hi,",
-    },
-    {
-        id: "small_title",
-        icon: "none",
-        title: "Intro text",
-        content: "I'm Andre, fullstack developer and computer engineer student."
-    }
-];
-
 export const projects = [
     {
         id: "minkvpn",
