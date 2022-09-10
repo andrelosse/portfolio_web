@@ -4,6 +4,8 @@ import close from "./close.png";
 import menugif from "./menugif.gif";
 import bgmain from "./bgmain.png";
 import balls from "./balls.png";
+import linkedin from "./linkedin.svg";
+import github from "./github.svg";
 
 export {
     logo,
@@ -11,5 +13,7 @@ export {
     close,
     menugif,
     bgmain,
-    balls
+    balls,
+    linkedin,
+    github
 };

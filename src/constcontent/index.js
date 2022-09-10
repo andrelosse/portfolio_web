@@ -1,3 +1,5 @@
+import { linkedin, github } from "../assets";
+
 export const navigation = [
     {
         id: "home",
@@ -73,13 +75,13 @@ export const contact = [
 export const link = [
     {
         id: "linkedin",
-        icon: "linkedin",
+        icon: linkedin,
         title: "Linkedin",
         content: "https://www.linkedin.com/in/andrelosse",
     },
     {
         id: "github",
-        icon: "github",
+        icon: github,
         title: "GitHub",
         content: "https://www.github.com/andrelosse",
     }
