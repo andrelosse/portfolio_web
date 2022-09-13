@@ -4,6 +4,8 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Global settings */
+
 * {
   scroll-behavior: smooth;
 }
@@ -16,6 +18,97 @@
     #11101d 91.61%
   );
   --card-shadow: 0px 20px 100px -10px rgba(66, 71, 91, 0.1);
+}
+
+/* Animation for the "Contact" button */
+.animbutton {
+  transition: background 500ms;
+}
+.animbutton:hover {
+  background: fixed;
+}
+.animbutton:active {
+  background: white;
+}
+
+/*Animations for the "Show More" button at the projects section */
+.showmargin {
+  margin: 0rem 32rem 2rem 32rem;
+  height: 57px;
+  transition: margin 257ms ease-in-out;
+}
+.showmargin:hover {
+  margin: 0rem 31rem 2rem 31rem;
+}
+.showmargin:active {
+  background: white;
+}
+
+/*Animations for the "Send" button */
+.sendbutton {
+  transition: width 257ms ease-in-out;
+  color: black;
+}
+.sendbutton:hover {
+  width: 9rem;
+}
+.sendbutton:active {
+  background: white;
+}
+
+/*Animations for the navigation bar */
+.animnav {
+  background: none;
+  transition: background 275ms ease-in-out;
+}
+.animnav:hover {
+  background:#5ce1e6;
+  border-radius: 12px;
+  width: 7rem;
+  height: 34px;
+}
+.animnav:active{
+  background: white;
+}
+
+/* Animation for the project section */
+.showprojs {
+  height: 0px;
+  transition: height 1s ease-in-out;
+  overflow: hidden;
+}
+.showoption {
+  position: relative;
+}
+#showmore::after {
+  content: "Show More";
+}
+input {
+  display: none;
+}
+input:checked + #showmore::after {
+  content: "Hide All";
+}
+input:checked ~ div{
+  height: 827px;
+}
+
+/* Settings for the project cards */
+.project-container {
+  margin: 0px;
+}
+.project-card {
+  background: transparent;
+  border-width: 1px;
+  border-color: rgba(51, 187, 207, 0.27);
+}
+.project-card:hover {
+  background: var(--black-gradient);
+  border-width: 0px;
+}
+
+.margincontact {
+  margin: 0 10% 0 0;
 }
 
 .text-gradient {
@@ -31,10 +124,6 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-}
-
-.textcolor {
-  color: #7de7eb;
 }
 
 .bg-blue-gradient {
@@ -93,21 +182,6 @@
   right: auto;
 }
 
-.project-container {
-  margin: 0px;
-}
-
-.project-card {
-  background: transparent;
-  border-width: 1px;
-  border-color: rgba(51, 187, 207, 0.27);
-}
-
-.project-card:hover {
-  background: var(--black-gradient);
-  border-width: 0px;
-}
-
 @-webkit-keyframes slide-top {
   0% {
     -webkit-transform: translateY(100px);
@@ -153,29 +227,4 @@
 .message {
   display: block;
   margin: 10px;
-}
-
-.showprojs {
-  height: 0px;
-  overflow: hidden;
-}
-
-.showoption {
-  position: relative;
-}
-
-label::after {
-  content: "Show More";
-}
-
-input {
-  display: none;
-}
-
-input:checked + label::after {
-  content: "Hide All";
-}
-
-input:checked ~ div{
-  height: 100%;
 }

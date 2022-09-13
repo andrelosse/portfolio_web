@@ -14,7 +14,7 @@ const Main = () => (
                 <div className="md:flex hidden md:mr-4 mr-4 p-4">
 
                     <div className={`${stylesjs.flexCenter} w-[140px] h-[75px] rounded-3xl bg-blue-gradient p-1 cursor-pointer`}>
-                        <div className={`${stylesjs.flexCenter} flex-col bg-primary w-[100%] h-[100%] rounded-3xl`}>
+                        <div className={`${stylesjs.flexCenter} flex-col bg-primary w-[100%] h-[100%] rounded-3xl animbutton`}>
                             <div className={`${stylesjs.flexStart}`}>
                                 <a href="#contact">
                                     <p className="font-poppins font-medium leading-[23px] text-[17px] text-gradient">Contact</p></a>
@@ -31,7 +31,8 @@ const Main = () => (
 
         </div>
 
-        <div>
+        <div className="relative">
+            
             <img src={bgmain} alt="Main Background Image" className="w-[75%] h-[100%] -right-[34%] relative z-[5]" />
 
             <div className="absolute z-[0] w-[27%] h-[27%] right-20 bottom-20 pink__gradient" />

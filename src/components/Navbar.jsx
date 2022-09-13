@@ -12,8 +12,11 @@ const Navbar = () => {
 
             <ul className='list-none sm:flex hidden justify-end items-center flex-1'>
                 {navigation.map((nav, index) => (
-                    <li key={nav.id} className={`font-poppins 
+                    <li key={nav.id} className={`animnav font-poppins 
                     font-normal 
+                    items-center
+                    justify-center
+                    flex
                     cursor-pointer 
                     text-[17px] 
                     text-white 
