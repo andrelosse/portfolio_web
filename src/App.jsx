@@ -7,7 +7,7 @@ import Navbar from './components/Navbar';
 import Projects from './components/Projects';
 
 const App = () => (
-  <div className="bg-primary w-full overflow-hidden">
+  <section className="bg-primary w-full overflow-hidden">
     <div className={`${stylesjs.paddingX}`}>
       <div className={`${stylesjs.boxWidth}`}>
         <Navbar/>
@@ -28,7 +28,7 @@ const App = () => (
       </div>
     </div>
 
-  </div>
+  </section>
 );
 
 export default App

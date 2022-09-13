@@ -2,7 +2,7 @@ import stylesjs from "../stylesjs";
 import { bgmain } from "../assets";
 
 const Main = () => (
-    <section id="home" className={`flex md:flex-row flex-col ${stylesjs.paddingY}`}>
+    <section id="home" className={`flex md:flex-row flex-col md:ml-10 ml-0 md:mr-10 mr-0 ${stylesjs.paddingY}`}>
         <div className={`flex-1 ${stylesjs.flexStart} flex-col xl:px-16 px-6`}>
             <div className="flex flex-row justify-between items-center">
                 <h1 className="flex-1 font-poppins font-semibold ss:text-[72px] text-[52px] text-white
@@ -25,20 +25,18 @@ const Main = () => (
                 </div>
             </div>
 
-            <h1 className="font-poppins font-semibold ss:text-[67px] text-[52px] text-white
-                    ss:leading-[100px] leading-[75px] w-full"></h1>
-
-            <p className={`${stylesjs.paragraph} max-w-[470px] mt-5`}>
+            <p className={`${stylesjs.paragraph} max-w-[470px] mt-5 md:mb-0 mb-5`}>
                 Computer engineer student and developer <br />.NET | C# | Python | React.js
             </p>
 
         </div>
 
         <div>
-            <img src={bgmain} alt="Main Background Image" className="w-[100%] h-[100%] relative z-[5]" />
-            <div className="absolute z-[0] w-[40%] h-[35%] top-0 pink__gradient" />
-            <div className="absolute z-[1] w-[80%] h-[80%] rounded-full bottom-40 white__gradient" />
-            <div className="absolute z-[0] w-[50%] h-[50%] right-20 bottom-20 blue__gradient" />
+            <img src={bgmain} alt="Main Background Image" className="w-[75%] h-[100%] -right-[34%] relative z-[5]" />
+
+            <div className="absolute z-[0] w-[27%] h-[27%] right-20 bottom-20 pink__gradient" />
+            <div className="absolute z-[1] h-[27%] w-[57%] right-20 bottom-20 white__gradient" />
+            <div className="absolute z-[2] w-[57%] h-[57%] right-20 bottom-20 blue__gradient" />
 
         </div>
 

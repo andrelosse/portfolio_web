@@ -1,5 +1,5 @@
 import stylesjs from "../stylesjs";
-import { logo, linkedin, github } from "../assets";
+import { logo } from "../assets";
 import { link } from "../constcontent";
 
 const Footer = () => (

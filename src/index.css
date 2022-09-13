@@ -31,7 +31,10 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-  text-fill-color: transparent;
+}
+
+.textcolor {
+  color: #7de7eb;
 }
 
 .bg-blue-gradient {
@@ -90,8 +93,8 @@
   right: auto;
 }
 
-.project-container .project-card:last-child {
-  margin-right: 0px;
+.project-container {
+  margin: 0px;
 }
 
 .project-card {
@@ -140,4 +143,39 @@
 .white__gradient {
   background: rgba(255, 255, 255, 0.6);
   filter: blur(750px);
+}
+
+.contact {
+  display: inline-block;
+  margin: 10px;
+}
+
+.message {
+  display: block;
+  margin: 10px;
+}
+
+.showprojs {
+  height: 0px;
+  overflow: hidden;
+}
+
+.showoption {
+  position: relative;
+}
+
+label::after {
+  content: "Show More";
+}
+
+input {
+  display: none;
+}
+
+input:checked + label::after {
+  content: "Hide All";
+}
+
+input:checked ~ div{
+  height: 100%;
 }
