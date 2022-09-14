@@ -111,6 +111,7 @@ input:checked ~ div{
   margin: 0 10% 0 0;
 }
 
+/* Gradients definitions for general purpouse */
 .text-gradient {
   background: radial-gradient(
     64.18% 64.18% at 71.16% 35.69%,
@@ -125,7 +126,6 @@ input:checked ~ div{
   -webkit-text-fill-color: transparent;
   background-clip: text;
 }
-
 .bg-blue-gradient {
   background: linear-gradient(
     157.81deg,
@@ -137,7 +137,6 @@ input:checked ~ div{
     #33bbcf 90.29%
   );
 }
-
 .bg-black-gradient {
   background: linear-gradient(
     144.39deg,
@@ -146,7 +145,6 @@ input:checked ~ div{
     #11101d 91.61%
   );
 }
-
 .bg-black-gradient-2 {
   background: linear-gradient(
     -168.39deg,
@@ -155,7 +153,6 @@ input:checked ~ div{
     #11101d 91.61%
   );
 }
-
 .bg-gray-gradient {
   background: linear-gradient(
     153.47deg,
@@ -163,25 +160,26 @@ input:checked ~ div{
     #14101d 95.11%
   );
 }
-
-.box-shadow {
-  box-shadow: 0px 27px 157px -20px rgba(75, 75, 127, 0.75);
+.blue__gradient {
+    background: linear-gradient(180deg, rgba(188, 165, 255, 0) 0%, #214d76 100%);
+    filter: blur(123px);
 }
 
+.pink__gradient {
+    background: linear-gradient(90deg, #f4c4f3 0%, #fc67fa 100%);
+    filter: blur(900px);
+}
+
+.white__gradient {
+    background: rgba(255, 255, 255, 0.6);
+    filter: blur(750px);
+}
+
+/* Sidebar for mobile and animation */
 .sidebar {
   -webkit-animation: slide-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
   animation: slide-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
 }
-
-.centertext {
-  position: absolute;
-  padding-top: 10px;
-  top: auto;
-  bottom: auto;
-  left: auto;
-  right: auto;
-}
-
 @-webkit-keyframes slide-top {
   0% {
     -webkit-transform: translateY(100px);
@@ -192,7 +190,6 @@ input:checked ~ div{
     transform: translateY(0);
   }
 }
-
 @keyframes slide-top {
   0% {
     -webkit-transform: translateY(100px);
@@ -204,19 +201,17 @@ input:checked ~ div{
   }
 }
 
-.blue__gradient {
-  background: linear-gradient(180deg, rgba(188, 165, 255, 0) 0%, #214d76 100%);
-  filter: blur(123px);
+.box-shadow {
+    box-shadow: 0px 27px 157px -20px rgba(75, 75, 127, 0.75);
 }
 
-.pink__gradient {
-  background: linear-gradient(90deg, #f4c4f3 0%, #fc67fa 100%);
-  filter: blur(900px);
-}
-
-.white__gradient {
-  background: rgba(255, 255, 255, 0.6);
-  filter: blur(750px);
+.centertext {
+    position: absolute;
+    padding-top: 10px;
+    top: auto;
+    bottom: auto;
+    left: auto;
+    right: auto;
 }
 
 .contact {
