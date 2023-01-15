@@ -1,7 +1,7 @@
 import { projects } from '../constcontent';
 import stylesjs from "../stylesjs";
 import ProjectCard from './ProjectCard';
-import ShowMore from './ShowMore';
+/* import ShowMore from './ShowMore'; */
 
 const Projects = () => (
     <section id="projects" className={`${stylesjs.paddingY} ${stylesjs.flexCenter} flex-col relative`}>
