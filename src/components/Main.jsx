@@ -33,7 +33,7 @@ const Main = () => (
 
         <div className="relative">
             
-            <img src={bgmain} alt="Main Background Image" className="w-[75%] h-[100%] -right-[34%] relative z-[5]" />
+            <img src={bgmain} alt="Main Background Image" className=" bgmain -left-[34%] relative z-[5]" />
 
             <div className="absolute z-[0] w-[27%] h-[27%] right-20 bottom-20 pink__gradient" />
             <div className="absolute z-[1] h-[27%] w-[57%] right-20 bottom-20 white__gradient" />
